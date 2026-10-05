@@ -39,7 +39,7 @@ To simulate a real-world phishing attack within a controlled Microsoft 365 envir
 | Component | Details |
 |-----------|---------|
 | **Tenant** | Microsoft 365 E5 Trial (30dayzoro.onmicrosoft.com) |
-| **Attacker** | External Gmail account (kenilprajapati77@gmail.com) |
+| **Attacker** | External Gmail account (ken***@gmail.com) |
 | **Victim User** | Roronoa Zoro (zoroo@30dayzoro.onmicrosoft.com) |
 | **Attack Vector** | Phishing email with malicious link |
 | **Security Tools** | Microsoft Defender for Office 365, Threat Explorer, AIR |
@@ -90,9 +90,9 @@ This simulates a common credential-harvesting phishing attack that SOC teams enc
 | Field | Value |
 |-------|-------|
 | Sender Display Name | Kenil Prajapati |
-| Sender Address | kenilprajapati77@gmail.com |
-| Sender Mail From | kenilprajapati77@gmail.com |
-| Return Path | kenilprajapati77@gmail.com |
+| Sender Address | ken***@gmail.com |
+| Sender Mail From | ken***@gmail.com |
+| Return Path | ken***7@gmail.com |
 | Sender IP | 2a00:1450:4864:30:e (Google Infrastructure) |
 | Recipient | zoroo@30dayzoro.onmicrosoft.com |
 | Time Received (UTC -04:00) | Oct 4, 2026 1:25 PM |
@@ -262,9 +262,15 @@ A suspicious inbound email was flagged in Microsoft Defender's Threat Explorer. 
 
 | # | Description | File |
 |---|-------------|------|
-| 1 | Threat Explorer — Email detected with Delivery Details panel (Phish/High, Blocked, Quarantine, First Contact) | `screenshots/01-threat-explorer-delivery-details.png` |
-| 2 | Take Action — Review and Submit page showing 3 remediation actions | `screenshots/02-take-action-review-submit.png` |
-| 3 | Automated Investigation (AIR) — Remediated status with 8 threats and 6 actions | `screenshots/03-air-investigation-remediated.png` |
+| 1 | Threat Explorer — Email detected with Delivery Details panel (Phish/High, Blocked, Quarantine, First Contact) 
+<img width="952" height="470" alt="Screenshot 2026-10-04 140343" src="https://github.com/user-attachments/assets/5145090f-0b67-4e24-addb-21e8838641b0" />
+
+| 2 | Take Action — Review and Submit page showing 3 remediation actions 
+<img width="958" height="467" alt="Screenshot 2026-10-04 145211" src="https://github.com/user-attachments/assets/2254319e-ab99-4c55-af61-0112cd2c98a6" />
+
+| 3 | Automated Investigation (AIR) — Remediated status with 8 threats and 6 actions 
+<img width="1117" height="567" alt="Screenshot 2026-10-04 172604" src="https://github.com/user-attachments/assets/dff62063-f152-4d25-af6a-d54b48d54c8e" />
+
 
 ---
 
@@ -297,9 +303,6 @@ A suspicious inbound email was flagged in Microsoft Defender's Threat Explorer. 
 
 **Kenil Prajapati**
 Cybersecurity Professional | CompTIA Security+ | ISC2 CC | AWS Cloud Security Foundations
-
-- [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-URL)
-- [GitHub](https://github.com/YOUR-GITHUB-USERNAME)
 
 ---
 
