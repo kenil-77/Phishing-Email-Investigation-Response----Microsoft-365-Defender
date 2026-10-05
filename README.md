@@ -69,7 +69,7 @@ This simulates a common credential-harvesting phishing attack that SOC teams enc
 **Tool:** Microsoft Defender → Email & collaboration → Explorer (Threat Explorer)
 
 1. Navigated to Threat Explorer and filtered emails by date range (Oct 3–4, 2026).
-2. Located the suspicious email "Banking details URGENT" sent from kenilprajapati77@gmail.com to zoroo@30dayzoro.onmicrosoft.com.
+2. Located the suspicious email "Banking details URGENT" sent from ken***@gmail.com to zoroo@30dayzoro.onmicrosoft.com.
 3. Selected the email to open the delivery details panel and analyzed the following:
 
 **Delivery Details:**
@@ -92,7 +92,7 @@ This simulates a common credential-harvesting phishing attack that SOC teams enc
 | Sender Display Name | Kenil Prajapati |
 | Sender Address | ken***@gmail.com |
 | Sender Mail From | ken***@gmail.com |
-| Return Path | ken***7@gmail.com |
+| Return Path | ken****@gmail.com |
 | Sender IP | 2a00:1450:4864:30:e (Google Infrastructure) |
 | Recipient | zoroo@30dayzoro.onmicrosoft.com |
 | Time Received (UTC -04:00) | Oct 4, 2026 1:25 PM |
@@ -193,7 +193,7 @@ A suspicious inbound email was flagged in Microsoft Defender's Threat Explorer. 
 
 | Question | Answer |
 |----------|--------|
-| **Who** | **Victim:** Roronoa Zoro (zoroo@30dayzoro.onmicrosoft.com). **Attacker:** External Gmail account kenilprajapati77@gmail.com with display name "Kenil Prajapati" — no organizational affiliation. |
+| **Who** | **Victim:** Roronoa Zoro (zoroo@30dayzoro.onmicrosoft.com). **Attacker:** External Gmail account ken***@gmail.com with display name "Kenil Prajapati" — no organizational affiliation. |
 | **What** | A phishing email with subject "Banking details URGENT" containing 1 embedded link was sent to the victim's Exchange Online mailbox. Defender blocked delivery and quarantined the message before the user could interact with it. |
 | **When** | Email received: Oct 4, 2026 1:25 PM (UTC -04:00). Duplicate attempt observed at 1:29 PM. Investigation and containment completed: Oct 4, 2026. AIR investigation (bd2fa4) completed with status "Remediated" at 3:00 PM. |
 | **Where** | The attack targeted Roronoa Zoro's mailbox in the 30dayzoro.onmicrosoft.com tenant. The email originated from Google's mail infrastructure (sender IP 2a00:1450:4864:30:e). The email contained 1 embedded link targeting the victim. |
